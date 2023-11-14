@@ -8,8 +8,8 @@
     &__sud {
         display: grid;
         grid-template-columns: max-content 1fr 1fr repeat(3, max-content);
-        padding-top: 50px;
-        min-height: 150px;
+        padding-top: $top-min-height;
+        min-height: $header-min-height;
         align-items: center;
         column-gap: 6px;
         z-index: 2;
