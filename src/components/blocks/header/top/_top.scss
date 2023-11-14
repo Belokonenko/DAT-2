@@ -151,9 +151,11 @@
 }
 @media (max-width: 992px) {
     .top__container {
+
         display: flex;
         justify-content: space-between;
-        height: 100%;
+        align-items: center;
+        height: $top-min-height;
     }
 
     .top__nav {
