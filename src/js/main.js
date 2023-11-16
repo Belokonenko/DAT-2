@@ -6,13 +6,17 @@ import seeds from '../components/blocks/main/seeds/_seeds.js';
 // import carousel from './modules/carousel.js';
 import novelties from '../components/blocks/main/novelties/_novelties.js';
 
+import sliderDCSM from '../components/bem-blocks/sliders/sliderDCSM/sliderDCSM.js';
+
+
 document.addEventListener('DOMContentLoaded', () => {
-    novelties();
+    // novelties();
     // carousel();
-    burger();
-    order();
-    navProduct();
-    seeds();
+    // burger();
+    // order();
+    // navProduct();
+    // seeds();
+    sliderDCSM();
 });
 
 // /**
