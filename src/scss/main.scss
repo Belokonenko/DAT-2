@@ -18,7 +18,8 @@
 // @import 'config/patternSelectors';
 
 /** Обнуление */
- @import './libs/reset-webacad';
+ 
+@import './libs/reset-webacad';
 
 /**
 * Библиотеки
@@ -35,12 +36,12 @@
 /**
 * Общие параметры, шаблоны(заготовки) и вспомогательные классы
 */
-// @import 'config/base';
 @import './base/base.scss';
 
 /**
 * БЕМ блоки используемые во всё проекте
 */
+
 @import '../components/bem-blocks/import-bem-blocks.scss';
 
 /**
