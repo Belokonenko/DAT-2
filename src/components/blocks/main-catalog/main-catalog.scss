@@ -59,7 +59,6 @@ $panel-h: 25%;
 
         &-item {
             position: relative;
-            display: inline-flex;
             overflow: hidden;
             height: 164px;
             background-color: #fff;
@@ -71,6 +70,11 @@ $panel-h: 25%;
 
             &--active {
                 box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+            }
+
+            & a {
+                display: flex;
+                height: 100%;
             }
 
             & img {

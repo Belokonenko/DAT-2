@@ -1,14 +1,15 @@
-.checkboxes {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
+$space-chec-text : 10px;
+$space-bitween-line : 10px;
 
 .checkbox {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: $space-chec-text;
   text-wrap: nowrap;
+
+  &:not(:first-child) {
+    margin-top: $space-bitween-line;
+  }
 
   // .checkbox__input
   &__input {
@@ -17,8 +18,8 @@
 
     /* Checked */
     &:checked + .checkbox__box {
-      background-color: #ff4040;
-      border-color: #fff;
+      background-color: gold;
+      border-color: green;
     }
 
     /* Focused */
@@ -42,6 +43,6 @@
     height: 20px;
     flex: 0 0 20px;
     border-radius: 3px;
-    border: 2px solid #1a8c80;
+    border: 2px solid grey;
   }
 }
