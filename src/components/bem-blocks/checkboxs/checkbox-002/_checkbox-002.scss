@@ -1,11 +1,28 @@
 .checkbox__input {
-    display: none;
-
-    &:checked  .checkbox__castom::before {
-        opacity: 1;
-    }
+    // display: none;
 }
 
+// --- style castom checkbox ---
+
+.checkbox__input:checked + .checkbox__castom::before {
+    opacity: 1;
+}
+
+.checkbox__input:focus + .checkbox__castom {
+    border-color: green  ;
+}
+
+.checkbox__input:hover + .checkbox__castom {
+
+    border-color: blue  ;
+}
+
+.checkbox__input:disabled + .checkbox__castom {
+
+    border-color: red  ;
+}
+
+// --- /style castom checkbox ---
 
 
 .checkbox__castom {
