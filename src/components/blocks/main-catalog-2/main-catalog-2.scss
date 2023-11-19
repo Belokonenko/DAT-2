@@ -1,13 +1,30 @@
+//--- ---
+
+.show-prod__text {    
+
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+//---/ ---
+
+//--- catalol-2  ---
+
 .catalol-2 {
-   display: grid;
-   grid-template-columns:30% 1fr;
+    display: grid;
+    grid-template-columns: 30% 1fr;
 }
 
 .catalog-prod {
-
     &__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px 10px;
     }
 }
+
+//--- /catalol-2  ---
