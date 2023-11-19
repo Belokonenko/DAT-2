@@ -3,9 +3,16 @@
 .counter-prod {
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
+    margin: 10px 0 0 0;
 }
 
 //--- /counter prod ---
+
+.wrap-num-btn-sort {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
 // <!-- sort btn -->
 .sort {
@@ -51,17 +58,19 @@
 // <!-- /sort btn -->
 
 //--- catalol-2  ---
-
+.catalog__title-2 {
+    margin-bottom: 20px;
+}
 .catalol-2 {
     display: grid;
-    grid-template-columns: 20% 1fr;
+    grid-template-columns: 26% 1fr;
 }
 
 .catalog-prod {
     &__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px 10px;
+        gap: 30px 30px;
     }
 }
 .filters {
