@@ -1,22 +1,60 @@
-//--- ---
+//--- counter prod  ---
 
-.show-prod__text {    
-
+.counter-prod {
     color: rgba(0, 0, 0, 0.5);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
-//---/ ---
+//--- /counter prod ---
+
+// <!-- sort btn -->
+.sort {
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 29px;
+        width: 260px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    &__text {
+        white-space: nowrap;
+        color: #484848;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    &__btn {
+        padding: 10px 20px;
+        border:transparent;
+        background-color: transparent;
+        border-left: 1px solid rgba(0, 0, 0, 0.2);
+
+        &:hover .sort__svg  {
+            transform: rotate(180deg);
+        }
+
+    }
+    
+    &__svg {
+        display: block;
+        fill: rgba(0, 0, 0, 0.2);
+        width: 10px;
+        transition: all .3s ease;
+
+    }
+}
+// <!-- /sort btn -->
 
 //--- catalol-2  ---
 
 .catalol-2 {
     display: grid;
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: 20% 1fr;
 }
 
 .catalog-prod {
@@ -25,6 +63,10 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 10px 10px;
     }
+}
+.filters {
+    position: absolute;
+    right: 0;
 }
 
 //--- /catalol-2  ---
