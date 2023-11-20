@@ -1,8 +1,6 @@
 <main class="main marg-main">
-
     <!-- wrap-catalog -->
     <div class="wrap-catalog container">
-
         <!-- pagination -->
         <ul class="pagination container">
             <li class="pagination__item">
@@ -12,100 +10,137 @@
                 <a class="pagination__ref">catalog</a>
             </li>
             <li class="pagination__item">
-                <a class="pagination__ref pagination__ref--active" 
-                   href="#"
-                   >plant protection</a>
+                <a class="pagination__ref pagination__ref--active" href="#"
+                    >plant protection</a
+                >
             </li>
         </ul>
         <!--/ pagination -->
-        
+
         <!-- catalog title -->
-        <p class="container catalog__title catalog__title-2 title title-two">Plant protection</p>
-       
+        <p class="container catalog__title catalog__title-2 title title-two">
+            Plant protection
+        </p>
+
         <!-- block num and sort -->
         <div class="wrap-num-btn-sort">
-            
             <!-- show prod num -->
             <p class="counter-prod">
                 <span class="counter-prod__num">621</span> products are shown
             </p>
             <!-- /show prod num -->
-            
+
             <!-- sort btn -->
             <div class="sort__box">
                 <span class="sort__text">Sort by</span>
                 <button class="sort__btn">
-
-                    <svg   class="sort__svg" viewBox="0 0 12 12">
-                        <use  xlink:href="./img/icon/sprite.svg#arr"></use>
+                    <svg class="sort__svg" viewBox="0 0 12 12">
+                        <use xlink:href="./img/icon/sprite.svg#arr"></use>
                     </svg>
-                
                 </button>
             </div>
             <!-- /sort  btn-->
-        
         </div>
         <!-- /block num and sort -->
-        
+
         <!-- catalog-prod-2 -->
-        <div class="catalol-2 ">
-
+        <div class="catalol-2">
             <!-- filters -->
-            <div class="wrap-fliters">
-                <section class="filters">
+            <section class="filters">
+                <!--tab categories -->
+                <div class="categories">
+                    <!--tab strings -->
+                    <dl class="categories__line">
+                        <dt><span>Herbicides</span></dt>
+                        <dd>(<span>0</span>)</dd>
+                    </dl>
 
+                    <dl class="categories__line">
+                        <dt><span>Fungicides</span></dt>
+                        <dd>(<span>0</span>)</dd>
+                    </dl>
 
-                    @@include( '../elements/checkbox-dat/_checkbox-dat.html', {
-                    "name":"test", "text": "test" })
+                    <dl class="categories__line">
+                        <dt><span>Insecticides </span></dt>
+                        <dd>(<span>0</span>)</dd>
+                    </dl>
+                    
+                    <dl class="categories__line">
+                        <dt><span>Desiccants</span></dt>
+                        <dd>(<span>0</span>)</dd>
+                    </dl>
+                    
+                    <dl class="categories__line">
+                        <dt><span>Stain removers</span></dt>
+                        <dd>(<span>111</span>)</dd>
+                    </dl>
+                   
+                    <dl class="categories__line">
+                        <dt><span>Adjuvants</span></dt>
+                        <dd>(<span>0</span>)</dd>
+                    </dl>
+                    
+                    <dl class="categories__line">
+                        <dt><span>Rodenticides</span></dt>
+                        <dd>(<span>333</span>)</dd>
+                    </dl>
+                    
+                    <dl class="categories__line">
+                        <dt><span>Retardants</span></dt>
+                        <dd>(<span>0</span>)</dd>
+                    </dl>
+                    <!--/tab strings -->
+                </div>
+                <!-- tab categories -->
 
-                    <!--            <!-1- 621 products are shown -1-> -->
+                @@include( '../elements/checkbox-dat/_checkbox-dat.html', {
+                "name":"test", "text": "test" })
 
-                    <!--            <!-1- Herbicides -1-> -->
-                    <!--            <!-1- Fungicides -1-> -->
-                    <!--            <!-1- Insecticides -1-> -->
-                    <!--            <!-1- Desiccants -1-> -->
-                    <!--            <!-1- Stain removers -1-> -->
-                    <!--            <!-1- Adjuvants -1-> -->
-                    <!--            <!-1- Rodenticides -1-> -->
-                    <!--            <!-1- Retardants -1-> -->
+                <!--            <!-1- 621 products are shown -1-> -->
 
-                    <!--            <!-1- Culture -1-> -->
+                <!--            <!-1- Herbicides -1-> -->
+                <!--            <!-1- Fungicides -1-> -->
+                <!--            <!-1- Insecticides -1-> -->
+                <!--            <!-1- Desiccants -1-> -->
+                <!--            <!-1- Stain removers -1-> -->
+                <!--            <!-1- Adjuvants -1-> -->
+                <!--            <!-1- Rodenticides -1-> -->
+                <!--            <!-1- Retardants -1-> -->
 
-                    <!--            <!-1- Sunflower -1-> -->
-                    <!--            <!-1- Corn -1-> -->
-                    <!--            <!-1- Wheat -1-> -->
-                    <!--            <!-1- Barley -1-> -->
-                    <!--            <!-1- Turnip -1-> -->
-                    <!--            <!-1- Soy -1-> -->
-                    <!--            <!-1- Pea -1-> -->
-                    <!--            <!-1- beans -1-> -->
-                    <!--            <!-1- Mustard -1-> -->
-                    <!--            <!-1- Peas -1-> -->
-                    <!--            <!-1- Rye -1-> -->
-                    <!--            <!-1- Bean -1-> -->
-                    <!--            <!-1- Clover -1-> -->
-                    <!--            <!-1- Kostrets/Kostrytsia -1-> -->
-                    <!--            <!-1- Alfalfa -1-> -->
-                    <!--            <!-1- Timothy -1-> -->
-                    <!--            <!-1- Triticale -1-> -->
-                    <!--            <!-1- Sugar beet -1-> -->
-                    <!--            <!-1- Fodder beet -1-> -->
-                    <!--            <!-1- Other -1-> -->
+                <!--            <!-1- Culture -1-> -->
 
-                    <!--            <!-1- Number -1-> -->
-                    <!--            <!-1- 1 -1-> -->
-                    <!--            <!-1- 2 -1-> -->
-                    <!--            <!-1- 3 -1-> -->
-                    <!--            <!-1- 4 -1-> -->
-                    <!--            <!-1- 5 -1-> -->
-                    <!--            <!-1- 6 -1-> -->
-                </section>
-            </div>
+                <!--            <!-1- Sunflower -1-> -->
+                <!--            <!-1- Corn -1-> -->
+                <!--            <!-1- Wheat -1-> -->
+                <!--            <!-1- Barley -1-> -->
+                <!--            <!-1- Turnip -1-> -->
+                <!--            <!-1- Soy -1-> -->
+                <!--            <!-1- Pea -1-> -->
+                <!--            <!-1- beans -1-> -->
+                <!--            <!-1- Mustard -1-> -->
+                <!--            <!-1- Peas -1-> -->
+                <!--            <!-1- Rye -1-> -->
+                <!--            <!-1- Bean -1-> -->
+                <!--            <!-1- Clover -1-> -->
+                <!--            <!-1- Kostrets/Kostrytsia -1-> -->
+                <!--            <!-1- Alfalfa -1-> -->
+                <!--            <!-1- Timothy -1-> -->
+                <!--            <!-1- Triticale -1-> -->
+                <!--            <!-1- Sugar beet -1-> -->
+                <!--            <!-1- Fodder beet -1-> -->
+                <!--            <!-1- Other -1-> -->
+
+                <!--            <!-1- Number -1-> -->
+                <!--            <!-1- 1 -1-> -->
+                <!--            <!-1- 2 -1-> -->
+                <!--            <!-1- 3 -1-> -->
+                <!--            <!-1- 4 -1-> -->
+                <!--            <!-1- 5 -1-> -->
+                <!--            <!-1- 6 -1-> -->
+            </section>
             <!-- /filters -->
 
-
             <section class="catalog-prod">
-
                 <!-- list card product -->
                 <ul class="catalog-prod__list">
                     @@for (var i = 0; i < 15; i++) {
@@ -121,28 +156,14 @@
                         <!-- "unit" : "1", -->
                         <!-- } -->
                         <!-- ) -->
-
-                        @@include('../../blocks/elements/card-prod/card-prod.html',
-                        { 
-                        "path_img" : "./img/petunia.jpg", 
-                        "alt" : "image product petunia", 
-                        "name": "Petunia Sofistika F1 0", 
-                        "state" :"instock" , 
-                        "price" : "4", 
-                        "unit" : "1", 
-                        })
                     </li>
 
                     }
                 </ul>
                 <!-- /list card product -->
-
             </section>
-
         </div>
         <!-- / catalog-prod-2  --->
-
     </div>
     <!-- /wrap-catalog -->
-
 </main>

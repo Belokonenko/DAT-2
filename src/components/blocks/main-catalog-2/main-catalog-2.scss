@@ -37,25 +37,61 @@
 
     &__btn {
         padding: 10px 20px;
-        border:transparent;
+        border: transparent;
         background-color: transparent;
         border-left: 1px solid rgba(0, 0, 0, 0.2);
 
-        &:hover .sort__svg  {
+        &:hover .sort__svg {
             transform: rotate(180deg);
         }
-
     }
-    
+
     &__svg {
         display: block;
         fill: rgba(0, 0, 0, 0.2);
         width: 10px;
-        transition: all .3s ease;
-
+        transition: all 0.3s ease;
     }
 }
 // <!-- /sort btn -->
+
+// --- filters ---
+
+.filters {
+}
+
+// <!--tab categories -->
+.categories {
+    border-radius: 20px;
+    background: #fff;
+    padding: 30px;
+
+    /* sh */
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.categories__line {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: 400;
+}
+
+.categories__line dt {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.categories__line dt span {
+}
+.categories__line dd {
+    margin: 0;
+}
+// <!--/tab categories -->
+
+// --- /filters ---
 
 //--- catalol-2  ---
 .catalog__title-2 {
@@ -72,8 +108,6 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 30px 30px;
     }
-}
-.filters {
 }
 
 //--- /catalol-2  ---
