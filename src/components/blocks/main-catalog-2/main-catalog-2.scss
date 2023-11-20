@@ -1,18 +1,21 @@
-//--- counter prod  ---
 
-.counter-prod {
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: 400;
-    margin: 10px 0 0 0;
-}
 
-//--- /counter prod ---
 
 .wrap-num-btn-sort {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
+
+//--- counter prod  ---
+.counter-prod {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+//--- /counter prod ---
+
 
 // <!-- sort btn -->
 .sort {
@@ -55,8 +58,28 @@
 }
 // <!-- /sort btn -->
 
-// --- filters ---
 
+//--- catalol-2  ---
+.catalog__title-2 {
+    margin-bottom: 20px;
+}
+.catalol-2 {
+    display: grid;
+    grid-template-columns: 255px 1fr;
+    gap: 30px;
+}
+
+.catalog-prod {
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px 30px;
+    }
+}
+//--- /catalol-2  ---
+
+
+// --- filters ---
 .filters {
 }
 
@@ -93,21 +116,3 @@
 
 // --- /filters ---
 
-//--- catalol-2  ---
-.catalog__title-2 {
-    margin-bottom: 20px;
-}
-.catalol-2 {
-    display: grid;
-    grid-template-columns: 26% 1fr;
-}
-
-.catalog-prod {
-    &__list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px 30px;
-    }
-}
-
-//--- /catalol-2  ---
