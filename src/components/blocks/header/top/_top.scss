@@ -6,6 +6,7 @@
     min-height: $top-min-height ;
     z-index: 999;
     background-color: $color-alpha;
+    font-size: clamp(0.81rem, 1.2vw, 1rem);
 
     &__container {
         display: grid;
@@ -144,9 +145,6 @@
 @media (max-width: 1200px) {
 }
 @media (max-width: 1060px) {
-    .top {
-        font-size: 0.9rem;
-    }
 
 }
 @media (max-width: 992px) {
