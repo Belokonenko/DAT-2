@@ -146,12 +146,14 @@
         }
 
         &__item-hidenn {
-            transform: scale(0);
-            transform-origin: top;
+            display: none;
+            // transform: scale(0);
+            // transform-origin: top;
         }
 
         &__item-viseble {
-            transform: scale(1);
+            display: block;
+            // transform: scale(1);
 
         }
 
