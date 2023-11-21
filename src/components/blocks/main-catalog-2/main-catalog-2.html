@@ -44,9 +44,9 @@
         <!-- /block num and sort -->
 
         <!-- catalog-prod-2 -->
-        <div class="catalol-2">
+        <div class="wrap-fliter-grid ">
             <!-- filters -->
-            <section class="filters">
+            <section class="wrap-categories-filter">
                 <!--tab categories -->
                 <div class="categories">
                     <!--tab strings -->
@@ -64,27 +64,27 @@
                         <dt><span>Insecticides </span></dt>
                         <dd>(<span>0</span>)</dd>
                     </dl>
-                    
+
                     <dl class="categories__line">
                         <dt><span>Desiccants</span></dt>
                         <dd>(<span>0</span>)</dd>
                     </dl>
-                    
+
                     <dl class="categories__line">
                         <dt><span>Stain removers</span></dt>
                         <dd>(<span>111</span>)</dd>
                     </dl>
-                   
+
                     <dl class="categories__line">
                         <dt><span>Adjuvants</span></dt>
                         <dd>(<span>0</span>)</dd>
                     </dl>
-                    
+
                     <dl class="categories__line">
                         <dt><span>Rodenticides</span></dt>
                         <dd>(<span>333</span>)</dd>
                     </dl>
-                    
+
                     <dl class="categories__line">
                         <dt><span>Retardants</span></dt>
                         <dd>(<span>0</span>)</dd>
@@ -93,42 +93,154 @@
                 </div>
                 <!-- tab categories -->
 
-                @@include( '../elements/checkbox-dat/_checkbox-dat.html', {
-                "name":"test", "text": "test" })
+                <form class="filter">
+                    <fieldset>
+                        <legend>Manufacturer</legend>
+                    <div class="filter__manufacturer">
+                        <p class="filter__title-manufacturer">Manufacturer</p>
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"nertus", "text": "Nertus" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"basf", "text": "Basf" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"adam ukraine", "text": "Adam Ukraine" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"bayer", "text": "Bayer" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"gzd", "text": "GZD" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"stefes", "text": "Stefes" })
+                    </div>
+                    
+                    </fieldset>
+                   
+                    <fieldset>
+                            <legend>Culture</legend>
 
-                <!--            <!-1- 621 products are shown -1-> -->
+                    <div class="filter__culture">
+                        <p class="filter__title-culture">Culture</p>
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"sunflower", "text": "Sunflower" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"corn", "text": "Corn" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"Wheat", "text": "Wheat" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"Barley", "text": "Barley" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"Turnip", "text": "Turnip" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"soy", "text": "Soy" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"Pea", "text": "Pea" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"beans", "text": "Beans" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"mustard", "text": "Mustard" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"peas", "text": "Peas" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"rye", "text": "Rye" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"bean", "text": "Bean " })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"clover", "text": "Clover" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"Kostrets/Kostrytsia", "text": "Kostrets/Kostrytsia" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"Alfalfa", "text": "Alfalfa" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"timothy", "text": "Timothy" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"triticale", "text": "Triticale" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"sugar-beet", "text": "Sugar beet" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"fodder-beet", "text": "Fodder beet" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"other", "text": "Other " })
+                    </div>
 
-                <!--            <!-1- Herbicides -1-> -->
-                <!--            <!-1- Fungicides -1-> -->
-                <!--            <!-1- Insecticides -1-> -->
-                <!--            <!-1- Desiccants -1-> -->
-                <!--            <!-1- Stain removers -1-> -->
-                <!--            <!-1- Adjuvants -1-> -->
-                <!--            <!-1- Rodenticides -1-> -->
-                <!--            <!-1- Retardants -1-> -->
+                    </fieldset>
 
-                <!--            <!-1- Culture -1-> -->
+                    <fieldset>
+                        <legend>Number</legend>
+                        <p>Number</p> 
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"1", "text": "1" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"2", "text": "2" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"3", "text": "3" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"4", "text": "4" })
+                        <!-- -- -->
+                        @@include(
+                        '../elements/checkbox-dat/_checkbox-dat.html', {
+                        "name":"5", "text": "5" })
 
-                <!--            <!-1- Sunflower -1-> -->
-                <!--            <!-1- Corn -1-> -->
-                <!--            <!-1- Wheat -1-> -->
-                <!--            <!-1- Barley -1-> -->
-                <!--            <!-1- Turnip -1-> -->
-                <!--            <!-1- Soy -1-> -->
-                <!--            <!-1- Pea -1-> -->
-                <!--            <!-1- beans -1-> -->
-                <!--            <!-1- Mustard -1-> -->
-                <!--            <!-1- Peas -1-> -->
-                <!--            <!-1- Rye -1-> -->
-                <!--            <!-1- Bean -1-> -->
-                <!--            <!-1- Clover -1-> -->
-                <!--            <!-1- Kostrets/Kostrytsia -1-> -->
-                <!--            <!-1- Alfalfa -1-> -->
-                <!--            <!-1- Timothy -1-> -->
-                <!--            <!-1- Triticale -1-> -->
-                <!--            <!-1- Sugar beet -1-> -->
-                <!--            <!-1- Fodder beet -1-> -->
-                <!--            <!-1- Other -1-> -->
+                    </fieldset>  
+
+
+                </form>
+
 
                 <!--            <!-1- Number -1-> -->
                 <!--            <!-1- 1 -1-> -->
@@ -138,7 +250,7 @@
                 <!--            <!-1- 5 -1-> -->
                 <!--            <!-1- 6 -1-> -->
             </section>
-            <!-- /filters -->
+            <!-- wrap categories and  filters -->
 
             <section class="catalog-prod">
                 <!-- list card product -->
@@ -146,7 +258,6 @@
                     @@for (var i = 0; i < 15; i++) {
                     <li>
                         <!-- @@include('../../blocks/elements/card-prod/card-prod.html', -->
-
                         <!-- { -->
                         <!-- "path_img" : "./img/petunia.jpg", -->
                         <!-- "alt" : "image product petunia", -->
@@ -155,6 +266,7 @@
                         <!-- "price" : "4", -->
                         <!-- "unit" : "1", -->
                         <!-- } -->
+
                         <!-- ) -->
                     </li>
 
