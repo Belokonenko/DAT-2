@@ -44,7 +44,7 @@
         <!-- /block num and sort -->
 
         <!-- catalog-prod-2 -->
-        <div class="wrap-fliter-grid ">
+        <div class="wrap-fliter-grid">
             <!-- filters -->
             <section class="wrap-categories-filter">
                 <!--tab categories -->
@@ -94,128 +94,130 @@
                 <!-- tab categories -->
 
                 <form class="filter">
+                    <button class="filter__btn">Filter</button>
                     <fieldset>
-                        <legend>Manufacturer</legend>
-                    <div class="filter__manufacturer">
-                        <p class="filter__title-manufacturer">Manufacturer</p>
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"nertus", "text": "Nertus" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"basf", "text": "Basf" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"adam ukraine", "text": "Adam Ukraine" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"bayer", "text": "Bayer" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"gzd", "text": "GZD" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"stefes", "text": "Stefes" })
-                    </div>
-                    
-                    </fieldset>
-                   
-                    <fieldset>
-                            <legend>Culture</legend>
-
-                    <div class="filter__culture">
-                        <p class="filter__title-culture">Culture</p>
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"sunflower", "text": "Sunflower" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"corn", "text": "Corn" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"Wheat", "text": "Wheat" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"Barley", "text": "Barley" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"Turnip", "text": "Turnip" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"soy", "text": "Soy" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"Pea", "text": "Pea" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"beans", "text": "Beans" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"mustard", "text": "Mustard" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"peas", "text": "Peas" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"rye", "text": "Rye" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"bean", "text": "Bean " })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"clover", "text": "Clover" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"Kostrets/Kostrytsia", "text": "Kostrets/Kostrytsia" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"Alfalfa", "text": "Alfalfa" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"timothy", "text": "Timothy" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"triticale", "text": "Triticale" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"sugar-beet", "text": "Sugar beet" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"fodder-beet", "text": "Fodder beet" })
-                        <!-- -- -->
-                        @@include(
-                        '../elements/checkbox-dat/_checkbox-dat.html', {
-                        "name":"other", "text": "Other " })
-                    </div>
-
+                        <legend class="visually-hidden">Manufacturer</legend>
+                        <div class="filter__manufacturer">
+                            <p class="filter__title-manufacturer">
+                                Manufacturer
+                            </p>
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"nertus", "text": "Nertus" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"basf", "text": "Basf" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"adam ukraine", "text": "Adam Ukraine" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"bayer", "text": "Bayer" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"gzd", "text": "GZD" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"stefes", "text": "Stefes" })
+                        </div>
                     </fieldset>
 
+                    <fieldset class="">
+                        <legend class="visually-hidden">Culture</legend>
+
+                        <div class="filter__culture">
+                            <p class="filter__title-culture">Culture</p>
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"sunflower", "text": "Sunflower" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"corn", "text": "Corn" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"Wheat", "text": "Wheat" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"Barley", "text": "Barley" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"Turnip", "text": "Turnip" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"soy", "text": "Soy" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"Pea", "text": "Pea" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"beans", "text": "Beans" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"mustard", "text": "Mustard" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"peas", "text": "Peas" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"rye", "text": "Rye" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"bean", "text": "Bean " })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"clover", "text": "Clover" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"Kostrets/Kostrytsia", "text":
+                            "Kostrets/Kostrytsia" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"Alfalfa", "text": "Alfalfa" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"timothy", "text": "Timothy" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"triticale", "text": "Triticale" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"sugar-beet", "text": "Sugar beet" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"fodder-beet", "text": "Fodder beet" })
+                            <!-- -- -->
+                            @@include(
+                            '../elements/checkbox-dat/_checkbox-dat.html', {
+                            "name":"other", "text": "Other " })
+                        </div>
+                    </fieldset>
+
                     <fieldset>
-                        <legend>Number</legend>
-                        <p>Number</p> 
+                        <legend class="visually-hidden">Number</legend>
+                        <p>Number</p>
                         @@include(
                         '../elements/checkbox-dat/_checkbox-dat.html', {
                         "name":"1", "text": "1" })
@@ -235,20 +237,9 @@
                         @@include(
                         '../elements/checkbox-dat/_checkbox-dat.html', {
                         "name":"5", "text": "5" })
-
-                    </fieldset>  
-
-
+                    </fieldset>
                 </form>
 
-
-                <!--            <!-1- Number -1-> -->
-                <!--            <!-1- 1 -1-> -->
-                <!--            <!-1- 2 -1-> -->
-                <!--            <!-1- 3 -1-> -->
-                <!--            <!-1- 4 -1-> -->
-                <!--            <!-1- 5 -1-> -->
-                <!--            <!-1- 6 -1-> -->
             </section>
             <!-- wrap categories and  filters -->
 
@@ -257,25 +248,62 @@
                 <ul class="catalog-prod__list">
                     @@for (var i = 0; i < 15; i++) {
                     <li>
-                        <!-- @@include('../../blocks/elements/card-prod/card-prod.html', -->
-                        <!-- { -->
-                        <!-- "path_img" : "./img/petunia.jpg", -->
-                        <!-- "alt" : "image product petunia", -->
-                        <!-- "name": "Petunia Sofistika F1 0", -->
-                        <!-- "state" :"instock" , -->
-                        <!-- "price" : "4", -->
-                        <!-- "unit" : "1", -->
-                        <!-- } -->
+                        @@include('../../blocks/elements/card-prod/card-prod.html',
+                        {
+                        "path_img" : "./img/petunia.jpg",
+                        "alt" : "image product petunia",
+                        "name": "Petunia Sofistika F1 0",
+                        "state" :"instock" ,
+                        "price" : "4",
+                        "unit" : "1",
+                        }
 
-                        <!-- ) -->
+                        )
                     </li>
 
                     }
                 </ul>
                 <!-- /list card product -->
+
+                <!-- pagination-page -->
+                @@include('../../bem-blocks/pagination/pag-p_001/_pagin-page_001.html') 
+                <!-- /pagination-page -->
+           
             </section>
         </div>
         <!-- / catalog-prod-2  --->
     </div>
     <!-- /wrap-catalog -->
+
+
+    <section class="description desc__catalog-2">
+        <div class="description__text-wrap container">
+            <h1 class="title description__title">Plant protection</h1>
+
+            <p>
+                Means of plant protection are divided into four main types:
+                mechanical, chemical, biological and agrotechnical. However, the
+                most rational thing is their simultaneous, correct combination.
+                The most common method is chemical. There are thousands of
+                different types of chemical protection products. But they should
+                not be confused, let alone combined with chemical fertilizers.
+                The methods of their influence on plants are completely
+                opposite.
+            </p>
+
+            <p>
+                It is necessary to know and distinguish chemical means of plant
+                protection. After all, these drugs have a strictly defined
+                object of influence (the causative agent of the disease, insect
+                pests, a species or family of weeds).
+            </p>
+
+            <p>
+                Poisonous chemicals do not tolerate negligence. This is the type
+                of drug that is not enough to simply dilute in water and spray
+                plants with it. If pesticides are used incorrectly, they can
+                harm you, the beneficial insects, and the crop.
+            </p>
+        </div>
+    </section>
 </main>

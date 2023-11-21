@@ -4,7 +4,7 @@ import order from '../components/blocks/header/order/_order.js';
 import navProduct from '../components/blocks/header/nav-product/_nav-product.js';
 import seeds from '../components/blocks/main/seeds/_seeds.js';
 import novelties from '../components/blocks/main/novelties/_novelties.js';
-
+import useJson from '../components/bem-blocks/use_json/use-json.js';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     order();
     navProduct();
     seeds();
+    useJson();
 });
 
 // /**

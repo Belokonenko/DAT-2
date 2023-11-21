@@ -1,12 +1,8 @@
-
-
-
 .wrap-num-btn-sort {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-
 
 //--- counter prod  ---
 .counter-prod {
@@ -15,7 +11,6 @@
     margin: 10px 0 0 0;
 }
 //--- /counter prod ---
-
 
 // <!-- sort btn -->
 .sort {
@@ -58,7 +53,6 @@
 }
 // <!-- /sort btn -->
 
-
 //--- catalol-2  ---
 .catalog__title-2 {
     margin-bottom: 20px;
@@ -78,17 +72,15 @@
 }
 //--- /catalol-2  ---
 
-
 // --- wrap categories and  filters ---
-.wrap-categories-filter{
-
+.wrap-categories-filter {
 }
 
 // <!--tab categories -->
 .categories {
     border-radius: 20px;
     background: #fff;
-    padding: 30px;
+    padding: 30px 30px  10px 30px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
     margin-bottom: 30px;
 }
@@ -98,15 +90,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: rgba(0, 0, 0, 0.50);
+    color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
+    margin:0 0 20px 0;
 }
 
 .categories__line dt {
     display: flex;
     overflow: hidden;
     white-space: nowrap;
-    
 }
 
 .categories__line dt span {
@@ -117,12 +109,46 @@
 }
 // <!--/tab categories -->
 
+//<!-- form filter -->
 .filter {
+    position: relative;
     border-radius: 20px;
     background: #fff;
     padding: 30px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    
+    &__btn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+
+        background-color: $color-beta;
+        border: none;
+        border-radius: 20px 20px 0px 0px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    & p {
+        font-weight: 600;
+    }
+    
+    &__title-manufacturer {
+        margin-top: 30px;
+
+    }
+    
+    & .checkbox__label {
+        margin-bottom: 10px;
+    }
+
 }
+//<!-- /form filter -->
 
 // ---/wrap categories and  filters ---
 
+.desc__catalog-2 {
+margin-top:120px ;    
+}
