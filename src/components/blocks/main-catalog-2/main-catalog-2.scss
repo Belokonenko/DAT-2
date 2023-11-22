@@ -147,7 +147,39 @@
 //<!-- /form filter -->
 
 // ---/wrap categories and  filters ---
-
 .desc__catalog-2 {
     margin-top: 120px;
 }
+
+// ---  adaptive ---
+
+@media (max-width: 1440px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+    .filter {
+        &__btn {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding-left: 55px;
+            &::before {
+                position: absolute;
+                left: 15px;
+                content: url("../img/arrow-white.svg");
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+}
+
+// ---  /adaptive ---
