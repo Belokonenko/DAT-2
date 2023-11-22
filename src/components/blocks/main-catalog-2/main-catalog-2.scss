@@ -57,6 +57,7 @@
 .catalog__title-2 {
     margin-bottom: 20px;
 }
+
 .wrap-fliter-grid {
     display: grid;
     grid-template-columns: 255px 1fr;
@@ -80,7 +81,7 @@
 .categories {
     border-radius: 20px;
     background: #fff;
-    padding: 30px 30px  10px 30px;
+    padding: 30px 30px 10px 30px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
     margin-bottom: 30px;
 }
@@ -92,7 +93,7 @@
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
-    margin:0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .categories__line dt {
@@ -116,7 +117,7 @@
     background: #fff;
     padding: 30px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
-    
+
     &__btn {
         position: absolute;
         top: 0;
@@ -134,21 +135,19 @@
     & p {
         font-weight: 600;
     }
-    
+
     &__title-manufacturer {
         margin-top: 30px;
-
     }
-    
+
     & .checkbox__label {
         margin-bottom: 10px;
     }
-
 }
 //<!-- /form filter -->
 
 // ---/wrap categories and  filters ---
 
 .desc__catalog-2 {
-margin-top:120px ;    
+    margin-top: 120px;
 }
