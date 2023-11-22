@@ -30,16 +30,19 @@
             </p>
             <!-- /show prod num -->
 
-            <!-- sort btn -->
-            <div class="sort__box">
-                <span class="sort__text">Sort by</span>
-                <button class="sort__btn">
-                    <svg class="sort__svg" viewBox="0 0 12 12">
-                        <use xlink:href="./img/icon/sprite.svg#arr"></use>
-                    </svg>
-                </button>
+            <div class="wrap-box-sort">
+                <button class="filter-btn-mob "></button>
+                <!-- sort btn -->
+                <div class="sort__box">
+                    <span class="sort__text">Sort by</span>
+                    <button class="sort__btn">
+                        <svg class="sort__svg" viewBox="0 0 12 12">
+                            <use xlink:href="./img/icon/sprite.svg#arr"></use>
+                        </svg>
+                    </button>
+                </div>
+                <!-- /sort  btn-->
             </div>
-            <!-- /sort  btn-->
         </div>
         <!-- /block num and sort -->
 
@@ -94,8 +97,14 @@
                 <!-- tab categories -->
 
                 <form class="filter">
-                    <button type="button" class="filter__btn" aria-hidden="true">Filter</button>
-                    
+                    <button
+                        type="button"
+                        class="filter__btn"
+                        aria-hidden="true"
+                    >
+                        Filter
+                    </button>
+
                     <fieldset>
                         <legend class="visually-hidden">Manufacturer</legend>
                         <div class="filter__manufacturer">
@@ -240,7 +249,6 @@
                         "name":"5", "text": "5" })
                     </fieldset>
                 </form>
-
             </section>
             <!-- wrap categories and  filters -->
 
@@ -250,16 +258,9 @@
                     @@for (var i = 0; i < 15; i++) {
                     <li>
                         @@include('../../blocks/elements/card-prod/card-prod.html',
-                        {
-                        "path_img" : "./img/petunia.jpg",
-                        "alt" : "image product petunia",
-                        "name": "Petunia Sofistika F1 0",
-                        "state" :"instock" ,
-                        "price" : "4",
-                        "unit" : "1",
-                        }
-
-                        )
+                        { "path_img" : "./img/petunia.jpg", "alt" : "petunia",
+                        "name": "Petunia Sofistika F1 0", "state" :"instock" ,
+                        "price" : "4", "unit" : "1", } )
                     </li>
 
                     }
@@ -267,15 +268,13 @@
                 <!-- /list card product -->
 
                 <!-- pagination-page -->
-                @@include('../../bem-blocks/pagination/pag-p_001/_pagin-page_001.html') 
+                @@include('../../bem-blocks/pagination/pag-p_001/_pagin-page_001.html')
                 <!-- /pagination-page -->
-           
             </section>
         </div>
         <!-- / catalog-prod-2  --->
     </div>
     <!-- /wrap-catalog -->
-
 
     <section class="description desc__catalog-2">
         <div class="description__text-wrap container">

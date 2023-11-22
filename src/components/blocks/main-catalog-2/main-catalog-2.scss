@@ -1,7 +1,8 @@
 $filter-size-panel: 255px;
 
 .wrap-num-btn-sort {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     justify-content: space-between;
     margin-bottom: 10px;
 }
@@ -16,7 +17,6 @@ $filter-size-panel: 255px;
 
 // <!-- sort btn -->
 .sort {
-    
     &__box {
         display: flex;
         align-items: center;
@@ -162,6 +162,11 @@ $filter-size-panel: 255px;
 @media (max-width: 1024px) {
 }
 @media (max-width: 992px) {
+    
+    .wrap-num-btn-sort {
+        grid-template-columns: 1fr;
+    }
+    
     .filter {
         position: absolute;
         left: -100%;
