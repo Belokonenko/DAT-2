@@ -6,6 +6,9 @@ $filter-size-panel: 255px;
     justify-content: space-between;
     margin-bottom: 10px;
 }
+.wrap-catalog {
+    position: relative;
+}
 
 .filter-btn-mob {
     border: none;
@@ -175,7 +178,7 @@ $filter-size-panel: 255px;
 
     .wrap-box-sort {
         display: grid;
-        gap:15px ;
+        gap: 15px;
         grid-template-columns: repeat(2, 1fr);
     }
     .filter-btn-mob {
@@ -185,6 +188,11 @@ $filter-size-panel: 255px;
         &__box {
             width: 100%;
         }
+    }
+
+    .categories {
+        position: absolute;
+        top: 0;
     }
 
     .filter {
