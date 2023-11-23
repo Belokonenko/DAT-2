@@ -1,3 +1,5 @@
+$select-menu-w : 330px;
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +8,9 @@
 
 
 .select-menu {
-    max-width: 330px;
+    max-width: $select-menu-w;
     margin: 50px auto;
+    width: 100%;
 }
 .select-menu .select-btn {
     display: flex;
