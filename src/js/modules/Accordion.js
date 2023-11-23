@@ -6,6 +6,9 @@
  * @param {boolean} options.shouldOpenAll - Whether to keep previous items open or not. Default is false.
  * @param {number[]} options.defaultOpen - The set of initially open items. Default is an empty array.
  */
+
+// gcc
+
 class Accordion {
   constructor(selector, options = {}) {
     const defaultConfig = {

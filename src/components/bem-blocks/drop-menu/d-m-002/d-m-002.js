@@ -1,4 +1,4 @@
-export default function dM001() {
+export default function dM002() {
     const optionMenu = document.querySelector(".select-menu"),
         selectBtn = optionMenu.querySelector(".select-btn"),
         options = optionMenu.querySelectorAll(".option"),
