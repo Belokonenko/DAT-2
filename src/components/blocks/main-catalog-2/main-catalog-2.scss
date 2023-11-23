@@ -7,6 +7,13 @@ $filter-size-panel: 255px;
     margin-bottom: 10px;
 }
 
+.filter-btn-mob {
+    border: none;
+    width: 100%;
+    background-color: $color-beta;
+    color: #fff;
+}
+
 //--- counter prod  ---
 .counter-prod {
     color: rgba(0, 0, 0, 0.5);
@@ -162,11 +169,24 @@ $filter-size-panel: 255px;
 @media (max-width: 1024px) {
 }
 @media (max-width: 992px) {
-    
     .wrap-num-btn-sort {
         grid-template-columns: 1fr;
     }
-    
+
+    .wrap-box-sort {
+        display: grid;
+        gap:15px ;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .filter-btn-mob {
+        display: block;
+    }
+    .sort {
+        &__box {
+            width: 100%;
+        }
+    }
+
     .filter {
         position: absolute;
         left: -100%;
