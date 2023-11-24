@@ -16,4 +16,4 @@ export default function dM002() {
             optionMenu.classList.remove("active");
         });
     });
-};
+}

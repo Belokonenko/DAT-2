@@ -60,7 +60,7 @@
     &__btn-arr {
         position: absolute;
         right: 0;
-        // display: none;
+        display: none;
         height: 100%;
         width: 50px;
         background-color: transparent;
@@ -68,10 +68,11 @@
         outline: none;
 
         &::before {
-            content: url("../../../img/arr-white.svg");
+            content: url("../img/arr-white.svg");
             position: absolute;
-            left: 20px;
-            top: 10px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             width: 12px;
             height: 10px;
             transition: all 0.3s ease;
@@ -166,13 +167,14 @@
             background-color: transparent;
             border-color: transparent;
             outline: none;
+                    transform: all 3s ease;
 
             &::before {
                 transform: all 3s ease;
             }
 
             &--active {
-                &::before {
+                &{
                     transform: rotate(180deg);
                 }
             }

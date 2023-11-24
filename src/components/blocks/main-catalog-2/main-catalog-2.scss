@@ -169,6 +169,14 @@ $filter-size-panel: 255px;
 
 @media (max-width: 1440px) {
 }
+
+@media (max-width: 1140px) {
+    .catalog-prod {
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
 @media (max-width: 1024px) {
 }
 @media (max-width: 992px) {
@@ -180,7 +188,14 @@ $filter-size-panel: 255px;
         display: grid;
         gap: 15px;
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px 20px;
     }
+
+    .wrap-fliter-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
     .filter-btn-mob {
         display: block;
     }
@@ -211,10 +226,27 @@ $filter-size-panel: 255px;
             }
         }
     }
+    .catalog-prod {
+        &__list {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px 20px;
+        }
+    }
 }
 @media (max-width: 768px) {
+    .catalog-prod {
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px 10px;
+        }
+    }
 }
 @media (max-width: 425px) {
+    .catalog-prod {
+        &__list {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
 }
 @media (max-width: 375px) {
 }

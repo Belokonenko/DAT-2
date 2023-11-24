@@ -7,11 +7,11 @@ import novelties from '../components/blocks/main/novelties/_novelties.js';
 // import dM002 from '../components/bem-blocks/drop-menu/d-m-002/d-m-002.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    // novelties();
-    // burger();
-    // order();
-    // navProduct();
-    // seeds();
+    novelties();
+    burger();
+    order();
+    navProduct();
+    seeds();
     // dM002();
 });
 
