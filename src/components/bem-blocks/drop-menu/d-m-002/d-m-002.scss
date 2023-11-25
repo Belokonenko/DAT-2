@@ -56,23 +56,10 @@ $select-menu-w : 330px;
 .select-menu .select-menu__options .select-menu__option:hover {
     background: #f2f2f2;
 }
-// .select-menu .select-menu__options .option i {
-//     font-size: 25px;
-//     margin-right: 12px;
-// }
 
 .select-menu .select-menu__options .select-menu__option .select-menu__option-txt {
     font-size: 18px;
     color: #333;
-}
-
-.select-menu__btn i {
-    font-size: 25px;
-    transition: 0.3s;
-}
-
-.select-menu.active .select-menu__btn i {
-    transform: rotate(-180deg);
 }
 
 .select-menu.active .select-menu__options {
