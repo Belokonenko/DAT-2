@@ -13,7 +13,7 @@ $select-menu-w : 330px;
     width: 100%;
 }
 
-.select-menu .select-btn {
+.select-menu .select-menu__btn {
     display: flex;
     height: 55px;
     background: #fff;
@@ -26,7 +26,7 @@ $select-menu-w : 330px;
     justify-content: space-between;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-.select-menu .options {
+.select-menu .select-menu__options {
     position: absolute;
     display: none;
     width: 330px;
@@ -44,7 +44,7 @@ $select-menu-w : 330px;
     -webkit-animation-duration: 0.35s;
     -webkit-animation-fill-mode: both;
 }
-.select-menu .options .option {
+.select-menu .select-menu__options .select-menu__option {
     display: flex;
     height: 55px;
     cursor: pointer;
@@ -53,29 +53,29 @@ $select-menu-w : 330px;
     align-items: center;
     background: #fff;
 }
-.select-menu .options .option:hover {
+.select-menu .select-menu__options .select-menu__option:hover {
     background: #f2f2f2;
 }
-// .select-menu .options .option i {
+// .select-menu .select-menu__options .option i {
 //     font-size: 25px;
 //     margin-right: 12px;
 // }
 
-.select-menu .options .option .option-text {
+.select-menu .select-menu__options .select-menu__option .select-menu__option-txt {
     font-size: 18px;
     color: #333;
 }
 
-.select-btn i {
+.select-menu__btn i {
     font-size: 25px;
     transition: 0.3s;
 }
 
-.select-menu.active .select-btn i {
+.select-menu.active .select-menu__btn i {
     transform: rotate(-180deg);
 }
 
-.select-menu.active .options {
+.select-menu.active .select-menu__options {
     display: block;
     opacity: 0;
     z-index: 10;
