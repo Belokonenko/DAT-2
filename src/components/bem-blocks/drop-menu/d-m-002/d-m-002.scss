@@ -1,10 +1,10 @@
 $select-menu-w : 330px;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
 
 
 .select-menu {
@@ -12,6 +12,7 @@ $select-menu-w : 330px;
     margin: 50px auto;
     width: 100%;
 }
+
 .select-menu .select-btn {
     display: flex;
     height: 55px;
@@ -27,6 +28,7 @@ $select-menu-w : 330px;
 }
 .select-menu .options {
     position: absolute;
+    display: none;
     width: 330px;
     overflow-y: auto;
     max-height: 295px;
@@ -54,10 +56,11 @@ $select-menu-w : 330px;
 .select-menu .options .option:hover {
     background: #f2f2f2;
 }
-.select-menu .options .option i {
-    font-size: 25px;
-    margin-right: 12px;
-}
+// .select-menu .options .option i {
+//     font-size: 25px;
+//     margin-right: 12px;
+// }
+
 .select-menu .options .option .option-text {
     font-size: 18px;
     color: #333;
@@ -71,6 +74,7 @@ $select-menu-w : 330px;
 .select-menu.active .select-btn i {
     transform: rotate(-180deg);
 }
+
 .select-menu.active .options {
     display: block;
     opacity: 0;
