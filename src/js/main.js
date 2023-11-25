@@ -4,7 +4,7 @@ import order from '../components/blocks/header/order/_order.js';
 import navProduct from '../components/blocks/header/nav-product/_nav-product.js';
 import seeds from '../components/blocks/main/seeds/_seeds.js';
 import novelties from '../components/blocks/main/novelties/_novelties.js';
-// import dM002 from '../components/bem-blocks/drop-menu/d-m-002/d-m-002.js';
+import dM002 from '../components/bem-blocks/drop-menu/d-m-002/d-m-002.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     novelties();
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     order();
     navProduct();
     seeds();
-    // dM002();
+    dM002();
 });
 
 // /**
