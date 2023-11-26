@@ -12,7 +12,13 @@ const html = (isBuild) => {
   return gulp.src(filePaths.src.html)
     .pipe(logger.handleError('HTML'))
     .pipe(fileInclude())
-    .pipe(plugins.replace(/@img\//g, 'images/'))
+       // времено для отлова ошибки 
+        .on('error', function(err){
+            console.log(err.message());
+            this.end();
+        })
+        // 
+        .pipe(plugins.replace(/@img\//g, 'images/'))
     .pipe(plugins.if(isBuild, webpHtml()))
     .pipe(
       htmlMin({

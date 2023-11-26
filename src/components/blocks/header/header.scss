@@ -36,12 +36,12 @@
 // }
 // @media (max-width: 320px) {
 //
-@import "./top/_top.scss";
-@import "./logo/_logo.scss";
-@import "./search/_search.scss";
-@import "./order/_order.scss";
-@import "./liked-goods/_liked-goods.scss";
-@import "./compare/_compare.scss";
-@import "./basket/_basket.scss";
+@import "./top/top.scss";
+@import "./logo/logo.scss";
+@import "./search/search.scss";
+@import "./order/order.scss";
+@import "./liked-goods/liked-goods.scss";
+@import "./compare/compare.scss";
+@import "./basket/basket.scss";
 @import "./mobile-header/mobile-header.scss";
-@import "./nav-product/_nav-product.scss";
+@import "./nav-product/nav-product.scss";
