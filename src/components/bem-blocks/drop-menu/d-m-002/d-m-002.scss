@@ -1,19 +1,16 @@
 $select-menu-w : 330px;
+$select-menu-btn-h : 55px;
 
 .select-menu {
-    max-width: $select-menu-w;
-    margin: 50px auto;
-    width: 100%;
+    width: $select-menu-w;
+    margin: 0 auto;
 }
 
 .select-menu__btn {
     display: flex;
-    height: 55px;
+    height: $select-menu-btn-h;
     background: #fff;
     padding: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    border-radius: 8px;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
@@ -23,7 +20,7 @@ $select-menu-w : 330px;
 .select-menu__options {
     position: absolute;
     display: none;
-    width: 330px;
+    width: $select-menu-w;
     overflow-y: auto;
     max-height: 295px;
     padding: 10px;
@@ -41,7 +38,7 @@ $select-menu-w : 330px;
 
 .select-menu__option {
     display: flex;
-    height: 55px;
+    height: $select-menu-btn-h;
     cursor: pointer;
     padding: 0 16px;
     border-radius: 8px;
@@ -53,8 +50,6 @@ $select-menu-w : 330px;
 }
 
 .select-menu__option-txt {
-    font-size: 18px;
-    color: #333;
 }
 
 .select-menu.active .select-menu__options {
