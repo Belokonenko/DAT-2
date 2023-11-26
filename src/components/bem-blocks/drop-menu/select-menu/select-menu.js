@@ -3,11 +3,12 @@ export default function selctMenu() {
     
     if (optionMenu) {
         const selectBtn = optionMenu.querySelector(".select-menu__btn"),
+            optionsMenu = optionMenu.querySelector(".select-menu__options"),
             options = optionMenu.querySelectorAll(".select-menu__option"),
             sBtn_text = optionMenu.querySelector(".select-menu__btn-text");
 
         selectBtn.addEventListener("click", () =>
-            optionMenu.classList.toggle("active")
+            optionsMenu.classList.toggle("select-menu__options_active")
         );
 
         options.forEach((option) => {
@@ -17,7 +18,7 @@ export default function selctMenu() {
                 ).innerText;
                 sBtn_text.innerText = selectedOption;
 
-                optionMenu.classList.remove("active");
+                optionsMenu.classList.remove("select-menu__options_active");
             });
         });
     }
