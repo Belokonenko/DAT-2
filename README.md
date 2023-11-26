@@ -65,6 +65,37 @@ import * as flsFunctions from './modules' // './modules/index.js'
 "homepage": "https://{UserName}.github.io/{NameRepo}",
 ```
 
-По любым вопросам касающихся сборки пишите мне в [Telegram](https://t.me/StarkElessar).
-# GULP
 # DAT-2
+
+## Файловая структура BEM Nested 
+components/
+├── header/
+│   ├── header.css
+│   ├── __logo/
+│   │   ├── header__logo.css
+│   │   └── header__logo.png
+│   ├── __menu/
+│   │   ├── header__menu.css
+│   │   └── header__item/
+│   │       ├── header__item.css
+│   │       └── header__item.js
+├── content/
+│   ├── content.css
+│   ├── __article/
+│   │   ├── content__article.css
+│   │   └── content__article.js
+│   ├── __sidebar/
+│   │   ├── content__sidebar.css
+│   │   ├── content__sidebar.js
+│   │   └── content__related/
+│   │       ├── content__related.css
+│   │       └── content__related.js
+└── footer/
+    ├── footer.css
+    ├── __social/
+    │   ├── footer__social.css
+    │   └── footer__social.js
+    └── __info/
+        ├── footer__info.css
+        └── footer__info.js
+
