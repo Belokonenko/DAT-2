@@ -1,0 +1,13 @@
+.select-menu__option {
+    display: flex;
+    height: $select-menu-btn-h;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+
+    &:hover {
+        background: #f2f2f2;
+    }
+}

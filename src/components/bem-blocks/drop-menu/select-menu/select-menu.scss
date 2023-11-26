@@ -1,0 +1,49 @@
+$select-menu-w : 330px;
+$select-menu-btn-h : 55px;
+
+@import'./__btn/__btn.scss';
+@import'./__options/__options.scss';
+@import'./__option/__option.scss';
+@import'./__text/__text.scss';
+
+
+.select-menu {
+    width: $select-menu-w;
+    margin: 0 auto;
+}
+
+
+
+
+
+.select-menu.active .select-menu__options {
+    display: block;
+    opacity: 0;
+    z-index: 10;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 30px, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes fadeInDown {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    to {
+        transform: translate3d(0, 20px, 0);
+        opacity: 0;
+    }
+}
