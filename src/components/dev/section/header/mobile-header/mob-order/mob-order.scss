@@ -1,0 +1,33 @@
+.order__mob-item {
+    color: #fff;
+}
+.mob-list {
+    background-color: $color-alpha;
+}
+.mob-tel-ref {
+    color: #fff;
+}
+
+@media (max-width: 1440px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+    .mob-order {
+        display: grid;
+    }
+    .mob-button {
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .order {
+        margin: 0;
+    }
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+}
