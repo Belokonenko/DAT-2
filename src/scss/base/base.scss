@@ -91,14 +91,30 @@
 //     pointer-events: none;
 // }
 
-
-.hidden {
-    display: none;
+.ref {
+    text-decoration: none;
+    transition: all 0.3s;
 }
 
-.viseble {
-    display: block;
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+.img {
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+// .hidden {
+//     display: none;
+// }
+
+// .viseble {
+//     display: block;
+// }
 
 // ===  container  ===
 
