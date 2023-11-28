@@ -1,17 +1,22 @@
-@import "./btn/_btn.scss";
 
 @import "./logo/logo.scss";
 @import "./logo/_size_tab/logo_size_tab.scss";
 
-@import "./round-button/_round-button.scss";
-@import "./round-button-mob/_round-botton-mob.scss";
-@import "./title/title.scss";
-@import "./title/title-two.scss";
 @import "./button/button.scss";
-@import "./text/text.scss";
-@import "./text/_text-accetn.scss";
-@import "./round-btn/round-btn.scss";
-@import "./arrow/_arrow.scss";
+@import "./button/_smooth/button_smooth.scss";
+@import "./button/_light/button_light.scss";
+@import "./button/_round/button_round.scss";
+
+@import "transition/transition.scss";
+
+// @import "./round-button/_round-button.scss";
+// @import "./round-button-mob/_round-botton-mob.scss";
+// @import "./title/title.scss";
+// @import "./title/title-two.scss";
+// @import "./text/text.scss";
+// @import "./text/_text-accetn.scss";
+// @import "./round-btn/round-btn.scss";
+// @import "./arrow/_arrow.scss";
+
 @import "./card-prod/card-prod.scss";
 @import "./checkbox-dat/checkbox-dat.scss";
-@import "./btn-dat/btn-dat.scss";

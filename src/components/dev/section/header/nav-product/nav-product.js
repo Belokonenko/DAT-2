@@ -1,4 +1,5 @@
 export default function navProduct() {
+    
     const navProductBtnArr = document.querySelector(".nav-product__btn-arr");
     const navItems = document.querySelectorAll(".nav-product__item");
     const navItemsHidenn = document.querySelectorAll(
