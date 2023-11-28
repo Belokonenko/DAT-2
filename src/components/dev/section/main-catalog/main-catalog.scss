@@ -20,7 +20,7 @@ $pag-item-mar-r: 30px;
             width: 6px;
             height: 6px;
             border-radius: 50%;
-            background-color: $color-beta;
+            background-color: $color-main-light;
         }
     }
 
@@ -118,7 +118,7 @@ $panel-h: 25%;
     background-repeat: no-repeat;
     background-size: cover;
 
-    color: $color-text-beta;
+    color: $color-text-light;
 
     &__title {
         font-size: 45px;

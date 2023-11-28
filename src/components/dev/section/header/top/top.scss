@@ -5,7 +5,7 @@
     width: 100%;
     min-height: $top-min-height ;
     z-index: 999;
-    background-color: $color-alpha;
+    background-color: $color-main;
     font-size: clamp(0.81rem, 1.2vw, 1rem);
 
     &__container {
@@ -135,7 +135,7 @@
     min-width: 100vw;
 
     display: grid;
-    background: $color-alpha;
+    background: $color-main;
 }
 
 // --- menu-burger ---

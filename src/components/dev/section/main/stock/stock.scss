@@ -1,7 +1,7 @@
 .stock {
     padding-top: 100px;
     position: relative;
-    background-color: $color-alpha;
+    background-color: $color-main;
     overflow: hidden;
 
     & * {
@@ -67,7 +67,7 @@
 
     &__title {
         text-align: center;
-        color: $color-text-beta;
+        color: $color-text-light;
     }
     
 

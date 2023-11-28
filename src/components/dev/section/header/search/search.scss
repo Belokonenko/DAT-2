@@ -20,11 +20,11 @@
         height: 20px;
         border-radius: 5px 0 0 5px;
         outline: none;
-        color: $color-text-alpha;
+        color: $color-text-dark;
     }
 
     &__term:focus {
-        color: $color-text-alpha;
+        color: $color-text-dark;
     }
 
     // --- button ---

@@ -14,16 +14,16 @@
         font-size: 0.875rem;
         background-color: $color-bg-alpha;
         transition: all .3s ease , color 0.1s ease;
-        border: 1px solid $color-alpha;
+        border: 1px solid $color-main;
 
         &:hover {
-            color: $color-text-beta;
-            border: 1px solid $color-delta;
-            background-color: $color-delta;
+            color: $color-text-light;
+            border: 1px solid $color-acent;
+            background-color: $color-acent;
         }
 
         &:hover .nav-product__svg path {
-            fill: $color-text-beta;
+            fill: $color-text-light;
         }
     }
 
@@ -40,8 +40,8 @@
     }
 
     &__svg path {
-        fill: $color-beta;
-        stroke: $color-text-beta;
+        fill: $color-main-light;
+        stroke: $color-text-light;
         stroke-width: 0.2;
         transition: all 0.3s ease;
 
@@ -125,9 +125,9 @@
 
 
         &__item {
-            color: $color-text-beta;
-            border: 1px solid $color-delta;
-            background-color: $color-delta;
+            color: $color-text-light;
+            border: 1px solid $color-acent;
+            background-color: $color-acent;
             transition: all .3s ease;
             transform: scale(1);
             padding: 5px;
@@ -138,7 +138,7 @@
             }
 
             & .nav-product__svg path {
-                fill: $color-text-beta;
+                fill: $color-text-light;
             }
         }
         

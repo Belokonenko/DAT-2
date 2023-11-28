@@ -1,3 +1,35 @@
+
+// --- background ---
+
+$color-bg-alpha: #ffffff;
+$color-bg-beta: #F8F8F8;
+// --- text ---
+
+$color-text-dark: #000000;
+$color-text-light: #ffffff;
+
+// --- colors ---
+
+$color-main: #1e6140;
+$color-main-light:#84C551;
+$color-acent: #e74e13;
+$color-accent-dark: #8c3213;
+
+$color-epsilon:#347153;
+
+// $color-vau
+// $color-zeta
+// $color-eta
+// $color-theta
+// $color-iota
+//
+
+// ---  Var global for blocks ---
+
+$top-min-height: 50px;
+$header-min-height: 150px;
+
+
 // $mainOffset: 15; // отступы безопасности для контейнера
 // $maxWidth: 1920; // максимальная ширина страницы
 // $minWidth: 320; // минимальная ширина телефона
@@ -27,33 +59,3 @@
 //                   0 0 10px 0 rgba(#000, 10%),
 //                   0 0 15px 0 rgba(#000, 10%);
 // }
-
-
-// --- background ---
-
-$color-bg-alpha: #ffffff;
-$color-bg-beta: #F8F8F8;
-// --- text ---
-
-$color-text-alpha: #000000;
-$color-text-beta: #ffffff;
-
-// --- colors ---
-
-$color-alpha: #1e6140;
-$color-beta: #84c551;
-$color-gamma: #8c3213;
-$color-delta: #e74e13;
-$color-epsilon:#347153;
-
-// $color-vau
-// $color-zeta
-// $color-eta
-// $color-theta
-// $color-iota
-//
-
-// ---  Var for blocks ---
-
-$top-min-height: 50px;
-$header-min-height: 150px;

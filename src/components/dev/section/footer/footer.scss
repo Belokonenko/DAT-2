@@ -36,14 +36,14 @@
     &__title {
         font-size: 18px;
         font-weight: 600;
-        color: $color-text-alpha;
+        color: $color-text-dark;
     }
 
     &__ref {
         display: block;
         font-size: 18px;
         font-weight: 400;
-        color: $color-text-alpha;
+        color: $color-text-dark;
     }
 
     &__ref,
@@ -61,7 +61,7 @@
     }
 
     &__mail {
-        color: $color-text-alpha;
+        color: $color-text-dark;
         font-weight: 400;
     }
 
@@ -94,7 +94,7 @@
         display: flex;
         width: 65px;
         height: 132px;
-        background-color: $color-beta;
+        background-color: $color-main-light;
         border-radius: 50px 50px 0 0;
         margin: 0;
         &::after {

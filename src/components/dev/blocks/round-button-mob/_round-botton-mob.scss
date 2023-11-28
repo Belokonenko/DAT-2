@@ -2,7 +2,7 @@
     border: 1px solid $color-bg-alpha;
 
     & svg path {
-        fill: $color-text-beta;
+        fill: $color-text-light;
     }
 
     &:hover {
@@ -10,6 +10,6 @@
     }
 
     &:hover svg path {
-        fill: $color-alpha;
+        fill: $color-main;
     }
 }

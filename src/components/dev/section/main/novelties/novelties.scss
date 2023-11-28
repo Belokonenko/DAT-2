@@ -21,7 +21,7 @@
 
     &__wrap {
         overflow: hidden;
-        // border: 1px solid $color-alpha;
+        // border: 1px solid $color-main;
     }
 
     &__line {
@@ -54,7 +54,7 @@
         width: 70px;
         height: 70px;
         transition: all 0.3s ease;
-        border: 1px solid $color-beta;
+        border: 1px solid $color-main-light;
         background-color: transparent;
         z-index: 1;
 
@@ -69,7 +69,7 @@
         }
 
         &:hover {
-            background: $color-beta;
+            background: $color-main-light;
         }
 
         &:hover ::after {
@@ -81,8 +81,8 @@
         }
 
         &:active {
-            background: $color-alpha;
-            border-color: $color-alpha;
+            background: $color-main;
+            border-color: $color-main;
         }
         &:focus {
             outline: none;
@@ -118,7 +118,7 @@
 
     &__dot--active {
         height: 100%;
-        background-color: $color-gamma;
+        background-color: $color-accent-dark;
     }
 
     //--- /dots ---
@@ -216,14 +216,14 @@
 //    }
 
 //    &__prod-state {
-//        color: $color-alpha;
+//        color: $color-main;
 //        font-size: 0.9rem;
 //        font-weight: 400;
 //        margin-bottom: 20px;
 //    }
 
 //    &__prod-parce {
-//        color: $color-beta;
+//        color: $color-main-light;
 //        font-size: 1.1rem;
 //        font-weight: 700;
 //    }

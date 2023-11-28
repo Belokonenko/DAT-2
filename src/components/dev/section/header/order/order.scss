@@ -16,10 +16,10 @@
     }
     
     &__tel-ref {
-        color: $color-text-alpha;
+        color: $color-text-dark;
         font-weight: 300;
         &:hover {
-            color: $color-delta;
+            color: $color-acent;
         }
         
     }
@@ -28,7 +28,7 @@
         display: flex;
         position: relative;
 
-        // color: $color-text-alpha;
+        // color: $color-text-dark;
         font-weight: 400;
 
         &::after {
@@ -56,7 +56,7 @@
 
     &__text {
         position: relative;
-        color: $color-beta;
+        color: $color-main-light;
 
         &::before {
             content: "";
@@ -65,8 +65,8 @@
             left: 0;
             width: 100%;
             height: 1px;
-            border-bottom: 1px solid $color-beta;
-            color: $color-beta;
+            border-bottom: 1px solid $color-main-light;
+            color: $color-main-light;
         }
     }
 }
