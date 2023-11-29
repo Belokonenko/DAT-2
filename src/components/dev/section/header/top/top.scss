@@ -3,7 +3,7 @@
 .top {
     position: fixed;
     width: 100%;
-    min-height: $top-min-height ;
+    min-height: $top-min-height;
     z-index: 999;
     background-color: $color-main;
     font-size: clamp(0.81rem, 1.2vw, 1rem);
@@ -22,57 +22,21 @@
         justify-content: space-between;
     }
 
-    // ---  menu ---
-
-    .menu {
-        position: relative;
-        padding-right: 10px;
-
-        &:hover {
-            background: $color-epsilon;
-        }
-
-        &:hover .menu__list {
-            transform: scaleY(1);
-        }
-
-        &__drop-btn {
-            padding-right: 25px;
-            &::before {
-                content: url(../../img/arr-menu.svg);
-                position: absolute;
-                width: 10px;
-                height: 10px;
-                right: 18px;
-                top: 45%;
-                transform: translateY(-50%);
-                transition: 0.3s ease;
-            }
-        }
-        &:hover .menu__drop-btn::before {
-            transform: rotate(180deg);
-        }
-
-        &__list {
-            position: absolute;
-            transform: scaleY(0);
-            border-radius: 0px 0px 20px 20px;
-            background: $color-epsilon;
-            transition: 0.3s;
-            transform-origin: top;
-        }
-
-        &__item {
-            min-width: 150px;
-            height: 50px;
-        }
-
-        &__item:last-child {
-            border-radius: 0 0 20px 20px;
-        }
+    &__nav-list li {
+        border: 1px solid red;
+        flex-grow: 1;
     }
 
-    // --- /menu ---
+    &__nav-list li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        padding: 0;
+        color: #fff;
+        font-weight: 300;
+        border: 1px solid red;
+    }
 
     &__ref {
         display: flex;
@@ -124,9 +88,65 @@
         position: relative;
         align-self: center;
     }
+    
     // ---  /login ---
 }
 
+// ---  menu ---
+.menu-btn {
+    position: relative;
+    display: flex;
+}
+
+.menu-btn::after {
+    content: url(../../img/arr-menu.svg);
+    position: absolute;
+    display: flex;
+    right: -15px; 
+    transform: rotate(180deg);
+    transition: .3s ease;
+    
+}
+
+.menu {
+    position: relative;
+
+    &:hover {
+        background: $color-epsilon;
+    }
+
+    &:hover .menu__list {
+        transform: scaleY(1);
+    }
+
+    &__drop-btn {
+        padding-right: 25px;
+    }
+
+    &:hover .menu__drop-btn::before {
+        transform: rotate(180deg);
+    }
+
+    &__list {
+        position: absolute;
+        transform: scaleY(0);
+        border-radius: 0px 0px 20px 20px;
+        background: $color-epsilon;
+        transition: 0.3s;
+        transform-origin: top;
+    }
+
+    &__item {
+        min-width: 150px;
+        height: 50px;
+    }
+
+    &__item:last-child {
+        border-radius: 0 0 20px 20px;
+    }
+}
+
+// --- /menu ---
 // --- menu-burger ---
 
 .menu-burger {
@@ -145,11 +165,9 @@
 @media (max-width: 1200px) {
 }
 @media (max-width: 1060px) {
-
 }
 @media (max-width: 992px) {
     .top__container {
-
         display: flex;
         justify-content: space-between;
         align-items: center;
