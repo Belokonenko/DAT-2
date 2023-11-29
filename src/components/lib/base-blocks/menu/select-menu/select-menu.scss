@@ -1,0 +1,15 @@
+$select-menu-w : 330px;
+$select-menu-btn-h : 55px;
+
+@import'./__btn/select-menu__btn.scss';
+@import'./__options/select-menu__options.scss';
+@import'./__options/select-menu__option_active.scss';
+@import'./__option/select-menu__option.scss';
+@import'./__text/select-menu__text.scss';
+
+
+.select-menu {
+    width: $select-menu-w;
+    margin: 0 auto;
+}
+

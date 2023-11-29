@@ -1,0 +1,10 @@
+.select-menu__btn {
+    display: flex;
+    height: $select-menu-btn-h;
+    background: #fff;
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
