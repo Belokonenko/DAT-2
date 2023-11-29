@@ -22,4 +22,6 @@
 .nav__ref:hover {
     background: $color-epsilon;
 }
-.
+.nav__ref:hover svg {
+    transform: rotate(180deg);
+}

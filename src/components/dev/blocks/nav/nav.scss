@@ -22,11 +22,15 @@
 .nav__ref:hover {
     background: $color-epsilon;
 }
+
 .nav__arrow-corener {
     width: 12px;
     aspect-ratio: 1;
     fill: $color-main-light;
     margin-left: 5px;
-
-    // transform: rotate(180deg);
 }
+
+.nav__ref:hover .nav__arrow-corener {
+    transform: rotate(180deg);
+}
+
