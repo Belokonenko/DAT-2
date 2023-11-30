@@ -22,6 +22,15 @@
 .nav__ref:hover {
     background: $color-epsilon;
 }
-.nav__ref:hover svg {
+
+.nav__arrow-corener {
+    width: 12px;
+    aspect-ratio: 1;
+    fill: $color-main-light;
+    margin-left: 5px;
+}
+
+.nav__ref:hover .nav__arrow-corener {
     transform: rotate(180deg);
 }
+
