@@ -2,6 +2,8 @@
     width: 100%;
     height: 100%;
 }
+
+
 .nav__list {
     display: flex;
     width: 100%;
@@ -10,7 +12,8 @@
 .nav__item {
     flex-grow: 1;
 }
-.nav__ref {
+
+.nav__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,8 +22,17 @@
     color:$color-text-light;
     font-weight: 300;
 }
-.nav__ref:hover {
+
+.nav__button:hover {
     background: $color-epsilon;
+}
+
+.nav__button:hover .nav__arrow-corener {
+    transform: rotate(180deg);
+}
+
+.nav__button_ofset {
+    margin-left: -5px;
 }
 
 .nav__arrow-corener {
@@ -30,7 +42,4 @@
     margin-left: 5px;
 }
 
-.nav__ref:hover .nav__arrow-corener {
-    transform: rotate(180deg);
-}
 
