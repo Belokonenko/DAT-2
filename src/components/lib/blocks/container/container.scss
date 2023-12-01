@@ -1,0 +1,28 @@
+$max-width-container : 1270px;
+$indentation : 35px;
+
+.container {
+  // width: 100%;
+  margin:0 auto;
+  padding:0 $indentation;
+  max-width: calc( ($indentation  + $indentation)  +  $max-width-container ) ;
+
+  border: 5px solid red;
+  overflow: hidden;
+  
+  @media (max-width: 1270px) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  // Дополнительные стили и медиа-запросы
+}
+
+
+
+
+
+
+
+
+
