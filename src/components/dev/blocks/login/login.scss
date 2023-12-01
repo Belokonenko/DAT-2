@@ -1,16 +1,14 @@
 .login {
     display: flex;
     align-self: center;
+    height: 100%;
 
-    &__ref {
-        color: $color-text-light;
-        font-weight: 300;
-    } 
     
     &__enter {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding:0 10px;
 
         &::before {
             content: url("../../img/enter.svg");
@@ -22,12 +20,13 @@
     &__line {
         align-self: center;
         border-right: 1px solid rgba(255, 255, 255, 0.2);
+        margin: 0 3px;
         height: 16px;
-        margin: 0 10px;
     }
 
     &__registration {
         position: relative;
         align-self: center;
+        padding:0 10px;
     }
 }
