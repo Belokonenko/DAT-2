@@ -1,19 +1,19 @@
-"use strict";
-import burger from "../components/dev/section/header/top/burger/burger.js";
-import order from "../components/dev/section/header/order/order.js";
-import navProduct from "../components/dev/section/header/nav-product/nav-product.js";
-import seeds from "../components/dev/section/main/seeds/seeds.js";
-import novelties from "../components/dev/section/main/novelties/novelties.js";
-import selctMenu from "../components/lib/blocks/drop-menu/select-menu/select-menu.js";
+// "use strict";
+// import burger from "../components/dev/section/header/top/burger/burger.js";
+// import order from "../components/dev/section/header/order/order.js";
+// import navProduct from "../components/dev/section/header/nav-product/nav-product.js";
+// import seeds from "../components/dev/section/main/seeds/seeds.js";
+// import novelties from "../components/dev/section/main/novelties/novelties.js";
+// import selctMenu from "../components/lib/blocks/drop-menu/select-menu/select-menu.js";
 
-document.addEventListener("DOMContentLoaded", () => {
-    novelties();
-    burger();
-    order();
-    navProduct();
-    seeds();
-    selctMenu();
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//     novelties();
+//     burger();
+//     order();
+//     navProduct();
+//     seeds();
+//     selctMenu();
+// });
 
 // /**
 //  * !(i)

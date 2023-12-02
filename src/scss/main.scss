@@ -34,18 +34,18 @@
 // @import 'config/scrollbar';
 
 /**
-* Общие параметры, шаблоны(заготовки) и вспомогательные классы
+* шаблоны(заготовки);
 */
-@import './base/base.scss';
+@import '../modules/modules.scss';
 
 /**
 * БЕМ блоки используемые во всё проекте
 */
 
-@import '../components/lib/lib.scss';
+@import '../components/components.scss';
 
 /**
-* Подключение стилей отдельных блоков и секций
+* основные секции прокэкта
 */
 
-@import '../components/dev/dev.scss';
+@import '../project/project.scss';

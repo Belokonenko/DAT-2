@@ -1,0 +1,40 @@
+$max-width-container: 1270px;
+$indentation-desctop: 35px;
+$indentation-tablet: 15px;
+$indentation-phones: 5px;
+
+.container {
+    // width: 100%;
+    margin: 0 auto;
+    padding: 0 $indentation;
+    max-width: calc(($indentation + $indentation) + $max-width-container);
+
+    // border: 5px solid red;
+    overflow: hidden;
+
+    // desctop
+    @media (max-width: 1440px) {
+    }
+    @media (max-width: 1270px) {
+    }
+    @media (max-width: 1024px) {
+    }
+
+    // tablet
+
+    @media (max-width: 992px) {
+        padding: 0 $indentation-tablet;
+    }
+    @media (max-width: 768px) {
+    }
+
+    // phones
+
+    @media (max-width: 425px) {
+        padding: 0 $indentation-phones;
+    }
+    @media (max-width: 375px) {
+    }
+    @media (max-width: 320px) {
+    }
+}
