@@ -1,6 +1,5 @@
 .nav {
 }
-
 .nav__list {
     display: flex;
     height: 100%;
@@ -38,9 +37,11 @@
 }
 
 .drop-menu {
-    display: none; 
     position: absolute;
+    height: 0;
     width: 200px;
+    overflow: hidden;
+    transition: height 0.5s ease; /* Анимация высоты на 0.5 секунды */ 
 }
 
 .drop-menu__button {
@@ -49,7 +50,7 @@
 }
 
 .nav__btn-menu:hover  .drop-menu {
-    display: block;
+    height: calc($top-min-height * 3);
 }
 
 // ---  adaptive ---
