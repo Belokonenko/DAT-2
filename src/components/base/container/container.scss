@@ -1,10 +1,7 @@
 $max-width-container: 1270px;
-$indentation-desctop: 35px;
-$indentation-tablet: 15px;
-$indentation-phones: 5px;
+$indentation: 35px;
 
 .container {
-    // width: 100%;
     margin: 0 auto;
     padding: 0 $indentation;
     max-width: calc(($indentation + $indentation) + $max-width-container);
@@ -23,7 +20,7 @@ $indentation-phones: 5px;
     // tablet
 
     @media (max-width: 992px) {
-        padding: 0 $indentation-tablet;
+        padding: 0 calc($indentation - 20px) ;
     }
     @media (max-width: 768px) {
     }
@@ -31,7 +28,7 @@ $indentation-phones: 5px;
     // phones
 
     @media (max-width: 425px) {
-        padding: 0 $indentation-phones;
+        padding: 0 calc($indentation - 30px);
     }
     @media (max-width: 375px) {
     }

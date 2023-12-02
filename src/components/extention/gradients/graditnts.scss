@@ -1,0 +1,77 @@
+.gradient {
+    width: 1068px;
+    height: 1068px;
+    flex-shrink: 0;
+
+    border-radius: 1068px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(132, 190, 81, 0.3) 0%,
+        rgba(210, 230, 189, 0) 100%
+    );
+    filter: blur(30px);
+}
+.gradient-1 {
+    width: 713px;
+    height: 713px;
+    flex-shrink: 0;
+    border-radius: 713px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(231, 78, 19, 0.1) 0%,
+        rgba(231, 78, 19, 0) 100%
+    );
+    filter: blur(30px);
+}
+
+.gradient-2 {
+    width: 1068px;
+    height: 1068px;
+    flex-shrink: 0;
+    border-radius: 1068px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(132, 190, 81, 0.3) 0%,
+        rgba(210, 230, 189, 0) 100%
+    );
+    filter: blur(30px);
+}
+
+.gradient-3 {
+    width: 713px;
+    height: 713px;
+    flex-shrink: 0;
+    border-radius: 713px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(231, 78, 19, 0.2) 0%,
+        rgba(231, 78, 19, 0) 100%
+    );
+    filter: blur(30px);
+}
+
+.gradient-4 {
+    width: 1068px;
+    height: 1068px;
+    flex-shrink: 0;
+    border-radius: 1068px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(132, 190, 81, 0.4) 0%,
+        rgba(210, 230, 189, 0) 100%
+    );
+    filter: blur(30px);
+}
+
+.gradient-5 {
+    width: 1068px;
+    height: 1068px;
+    flex-shrink: 0;
+    border-radius: 1068px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(132, 190, 81, 0.3) 0%,
+        rgba(210, 230, 189, 0) 100%
+    );
+    filter: blur(30px);
+}

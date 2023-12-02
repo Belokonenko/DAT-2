@@ -23,10 +23,10 @@ const filePaths = {
         fonts: `${srcFolder}/fonts/`,
     },
     watch: {
-        js: [`${srcFolder}/js/**/*.js`, `${srcFolder}/components/**/*.js`],
+        js: [`${srcFolder}/js/**/*.js`, `${srcFolder}/**/*.js`],
         scss: [
             `${srcFolder}/scss/**/*.scss`,
-            `${srcFolder}/components/**/*.scss`,
+            `${srcFolder}/**/*.scss`,
         ],
         html: `${srcFolder}/**/*.html`,
         images: `${srcFolder}/**/*.{jpg,jpeg,png,svg,gif,webp,ico}`,

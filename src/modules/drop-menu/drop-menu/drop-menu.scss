@@ -1,0 +1,16 @@
+.drop-menu {
+    position: absolute;
+    display: grid;
+    width: 200px;
+}
+
+.drop-menu__item {
+    height: 40px;
+
+}
+
+.drop-menu__button {
+    justify-content: start;
+}
+
+
